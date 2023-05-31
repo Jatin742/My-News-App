@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar';
 import News from './Components/News';
 import{BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LoadingBar from 'react-top-loading-bar';
+const dotenv=require("dotenv").config();
 
 const App=()=>{
   const pageSize=5;
