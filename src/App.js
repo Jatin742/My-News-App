@@ -9,7 +9,7 @@ const dotenv=require("dotenv").config();
 
 const App=()=>{
   const pageSize=5;
-  const apiKey=process.env.REACT_APP_NEWS_API;
+  const apiKey=process.env.REACT_APP_NEWS_API||"6a9200ce37c24545b2ca1c0a3c1356b2";
   const [progress, setProgress] = useState(0);
     return (
       <div>
